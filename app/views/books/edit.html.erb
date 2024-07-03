@@ -11,11 +11,11 @@
 </div>
 <%= form_with model: @book do |f| %>
  <h4>Title</h4>
- <%= f.text_field :title %>
+ <%= f.text_field :title ,class:'field' %>
  <h4>Body</h4>
- <%= f.text_area :body %>
+ <%= f.text_area :body,class:'field'  %>
  
- <%= f.submit 'Update Book' %>
+ <%= f.submit 'Update Book',class: 'create-book' %>
 <% end %>
 <%= link_to "Show", book_path(@book) %>
 |

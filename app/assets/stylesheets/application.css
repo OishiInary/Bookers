@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+.book-wrap{
+  margin-bottom: 20px;
+}
 p{
   margin: 33px ;
 }
@@ -21,7 +24,7 @@ body {
     margin: 33px;
 }
 .form{
-  color: pink;
+  color: gray;
   margin-top:10px;
   display: block;
 }
@@ -29,8 +32,10 @@ body {
   margin-bottom: 10px;
 }
 .create-book{
-  color: green;
+  color: #006A66;
   display: block;
+  margin-bottom: 10px;
+  
 }
 .flash-messagenotice {
   background-color: #14f5ac;
@@ -47,6 +52,10 @@ body {
 }
 .errormessage{
   background-color: black;
-  color:#b2bf00;
-  margin-bottom: 10px;
+  color:yellowgreen;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.erms{
+  background-color: red;
 }
